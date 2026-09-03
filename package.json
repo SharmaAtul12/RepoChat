@@ -18,6 +18,12 @@
     "dev": "nodemon src/index.js"
   },
   "dependencies": {
+    "@langchain/core": "^1.2.9",
+    "@langchain/openai": "^1.5.11",
+    "@langchain/pinecone": "^1.0.3",
+    "@langchain/textsplitters": "^1.0.1",
+    "@octokit/rest": "^22.0.1",
+    "@pinecone-database/pinecone": "^8.2.0",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "inngest": "^4.19.0"
